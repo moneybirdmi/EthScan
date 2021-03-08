@@ -1,0 +1,193 @@
+yarn migrate && yarn verify
+yarn run v1.22.5
+$ truffle migrate --network bscTestnet --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'bscTestnet'
+> Network id:      97
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x3d3d9d8142b65c2552cbf3dd101d90b76ae78e01af979238c5fcde772a530675
+   > Blocks: 3            Seconds: 9
+   > contract address:    0x8fa87048760a10Fe7255210C7Dbe08D8A4E69d65
+   > block number:        6905476
+   > block timestamp:     1615198750
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.903216438196436935
+   > gas used:            153706 (0x2586a)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00307412 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00307412 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'NFY'
+   ---------------
+   > transaction hash:    0x7aa47c980048be569d92961d06ae338c2eb201d42209b4455045a4f465702a6a
+   > Blocks: 2            Seconds: 5
+   > contract address:    0xBC2fF2a5C7C9A034D434450cb23De20bF2a0ab9C
+   > block number:        6905484
+   > block timestamp:     1615198774
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.883998318196436935
+   > gas used:            918651 (0xe047b)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01837302 ETH
+
+LPAddress:  0xaddE7da7223669e83CE590af6433842587A31636
+
+   Replacing 'RewardPool'
+   ----------------------
+   > transaction hash:    0x7653218caabc34db5af91dae81719a22065ebaf03f8184a9322271bd29a39171
+   > Blocks: 3            Seconds: 14
+   > contract address:    0x2Fd782438A622f3f96395f256F70A0546995fd50
+   > block number:        6905505
+   > block timestamp:     1615198837
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.838679418196436935
+   > gas used:            303423 (0x4a13f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00606846 ETH
+
+
+   Replacing 'NFYStakingNFTV2'
+   ---------------------------
+   > transaction hash:    0x14fa84eea710ce012910518196b4a94e7d692576207e710e1f1f17651b9f13c4
+   > Blocks: 8            Seconds: 30
+   > contract address:    0x30Ec021ab62bc14f88d182CCfe24Da642C917AAA
+   > block number:        6905516
+   > block timestamp:     1615198870
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.792618958196436935
+   > gas used:            2303023 (0x23242f)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.04606046 ETH
+
+
+   Replacing 'LPStakingNFTV2'
+   --------------------------
+   > transaction hash:    0xea6741f13f121e301845ea7e34d65d67e8e7a6a6a243254a278b964c999f3865
+   > Blocks: 6            Seconds: 19
+   > contract address:    0xeF9AD88156DD6A37C694716E520C030dd067F7ef
+   > block number:        6905524
+   > block timestamp:     1615198894
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.746556858196436935
+   > gas used:            2303105 (0x232481)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0460621 ETH
+
+
+   Replacing 'NFYStakingV2'
+   ------------------------
+   > transaction hash:    0x867aa0531e4f1ef5b9be7ebc8382fe1e5275417d4f2f7ade4a16bac59d734600
+   > Blocks: 6            Seconds: 18
+   > contract address:    0x28b9a0E7365b3cB5D5A821b0cAf0f3eAf54b00f4
+   > block number:        6905532
+   > block timestamp:     1615198918
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.684563038196436935
+   > gas used:            3099691 (0x2f4c2b)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.06199382 ETH
+
+
+   Replacing 'LPStakingV2'
+   -----------------------
+   > transaction hash:    0xa4c0684a5ed191091cda90b6da71bac65be4b2a9fa5bb47d6b7909f6bb87d2a2
+   > Blocks: 4            Seconds: 14
+   > contract address:    0xDCEC14Aa162EE0A0B56f7507Dc26a573C7739f8E
+   > block number:        6905541
+   > block timestamp:     1615198945
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.625385158196436935
+   > gas used:            2958894 (0x2d262e)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.05917788 ETH
+
+
+   Replacing 'NFYTradingPlatform'
+   ------------------------------
+   > transaction hash:    0xdae9a1f6d9796912d901e21f13d100760c0bf9b1cde1ec33c4049dd72cb26054
+   > Blocks: 7            Seconds: 23
+   > contract address:    0x3D78ac45E918cC37C5A6790A7fAeF93aA0FA224e
+   > block number:        6905616
+   > block timestamp:     1615199170
+   > account:             0x0aE7971DD94c5E39d21Da0D9C6a3B3C429360EC1
+   > balance:             4.550782898196436935
+   > gas used:            3413456 (0x3415d0)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.06826912 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.30600486 ETH
+
+
+Summary
+=======
+> Total deployments:   8
+> Final cost:          0.30907898 ETH
+
+
+Done in 484.69s.
+yarn run v1.22.5
+
+LPAddress:  0xaddE7da7223669e83CE590af6433842587A31636
+WEth: 0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd
+
+$ truffle run verify --network bscTestnet NFY RewardPool NFYStakingNFTV2 LPStakingNFTV2 NFYStakingV2 LPStakingV2 NFYTradingPlatform
+Verifying NFY
+Pass - Verified: https://testnet.bscscan.com/address/0xBC2fF2a5C7C9A034D434450cb23De20bF2a0ab9C#contracts
+
+Verifying RewardPool
+Pass - Verified: https://testnet.bscscan.com/address/0x2Fd782438A622f3f96395f256F70A0546995fd50#contracts
+
+Verifying NFYStakingNFTV2
+Pass - Verified: https://testnet.bscscan.com/address/0x30Ec021ab62bc14f88d182CCfe24Da642C917AAA#contracts
+
+Verifying LPStakingNFTV2
+Pass - Verified: https://testnet.bscscan.com/address/0xeF9AD88156DD6A37C694716E520C030dd067F7ef#contracts
+
+Verifying NFYStakingV2
+Pass - Verified: https://testnet.bscscan.com/address/0x28b9a0E7365b3cB5D5A821b0cAf0f3eAf54b00f4#contracts
+
+Verifying LPStakingV2
+Pass - Verified: https://testnet.bscscan.com/address/0xDCEC14Aa162EE0A0B56f7507Dc26a573C7739f8E#contracts
+
+Verifying NFYTradingPlatform
+Fail - Unable to verify
+
+Failed to verify 1 contract(s): NFYTradingPlatform
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
